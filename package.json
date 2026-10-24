@@ -1,0 +1,19 @@
+{
+  "name": "sl-cartoon-dl-api",
+  "version": "1.0.0",
+  "description": "Sri Lankan Sinhala cartoon API: latest, categories, search, info and download/source resolver",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.0",
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
